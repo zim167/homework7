@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    
+    <body>
+        <!--Header-->
+        <div class="bg-danger">
+        <div class="container">
+            <div class = "row">
+            <div class="col-md-12">
+                <h1>Franklin Faulkner Portfoilo</h1>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!--Nav Bar-->
+        <nav class= "navbar navbar-default">
+            <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li> <a href = "project1.html"> Project 1  </a></li>
+                <li>  <a href = "project2.html"> Project 2  </a></li>
+                <li>  <a href = "project3.html"> Project 3   </a></li>
+            
+            </ul>
+            </div>
+            </nav>
+            
+
+
+            <div class = "container">
+        <!-- personal intro  -->
+        <div class = card style="width: 18rem;">
+            <h4 id = "greeting"> </h4>
+        </div>
+        <!---->
+        <!--put into table -->  
+        <!-- one row -->
+        <table class="table">
+            <thead>
+            <th>College </th>
+            <th>Highschool</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Northern Arizona</td>
+                    <td>Jane Doe Highschool</td>
+                </tr>
+            </tbody>
+        </table>
+
+    <!--  timer to project deadline-->
+      <div class = "container">
+        <div class = "row">
+            <div class = "col-md-12">
+            <div id="deadline">
+
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--skills -->
+        <div class="card" style="width: 18rem;">
+        
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item"> Skills </li>    
+    <li class="list-group-item"> C++ </li>
+    <li class="list-group-item"> Power Tools </li>
+    <li class="list-group-item"> Juggling</li>
+    </ul>
+</div>
+
+
+    <!--lower-->
+    <div class = "bg-success">
+        <div class="container">
+            <div class = "row">
+            <div class="col-md-12">
+                <h3>Contact information </h3>
+            </div>
+            <h3><a href = mailto:jbr007@nau.edu> email me </a></h3>
+            <h3><a href = "tel: 552-345-3453"> call me uwu </a></h3>
+             <!-- one row -->
+            </div>
+    
+            
+    <a href="https://drive.google.com/uc?export=download&id=1eIGgHNYtqvu2UHQpE74vHC32aMO1FXvO" class="btn btn-info" role="button"> Download Resume</a>
+    
+    <script src="app.js"></script>
+    <script>
+        showGreeting("Franklin");
+    </script>
+    <script>
+        daysUntilDeadline('2026-12-24');
+    </script>
+    </body>
+
+
+</html>
